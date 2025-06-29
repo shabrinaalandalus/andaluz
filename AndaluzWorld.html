@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pastel Pink Sophistication</title>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+  <style>
+    html, body {
+  margin: 0;
+  padding: 0;
+  background-image: url('https://i.ibb.co.com/kg6zt20R/Laptop-Wallpaper.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Quicksand', sans-serif;
+  color: #333;
+  text-align: center;
+  overflow-x: hidden;
+  height: 100vh;
+  cursor: url('https://i.ibb.co/VcbfGJM/removebg-preview.png') 16 16, auto;
+}
+    h1 {
+      font-size: 3em;
+      margin-top: 50px;
+      margin-bottom: 0.5em;
+    }
+
+    p {
+      font-size: 1.2em;
+      line-height: 1.5;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .container {
+      background-color: rgba(255, 255, 255, 0.8);
+      border-radius: 15px;
+      padding: 20px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      display: inline-block;
+      margin-top: 30px;
+      margin-bottom: 40px;
+      max-width: 90%;
+    }
+
+    .button {
+      font-size: 1.5em;
+      padding: 15px 30px;
+      background-color: #ff77b6;
+      border: none;
+      border-radius: 10px;
+      color: white;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      margin-top: 30px;
+    }
+
+    .button:hover {
+      background-color: #ff5180;
+    }
+   }
+
+    .star {
+      position: absolute;
+      top: -20px;
+      width: 30px;
+      height: 30px;
+      background-color: yellow;
+      border-radius: 50%;
+      opacity: 0;
+      animation: fall 5s infinite linear;
+    }
+
+    @keyframes fall {
+      0% {
+        transform: translateY(-20px);
+        opacity: 1;
+      }
+      100% {
+        transform: translateY(100vh);
+        opacity: 0;
+      }
+    }
+
+    .star:nth-child(odd) {
+      animation-duration: 4s;
+      animation-delay: 1s;
+    }
+
+    .star:nth-child(even) {
+      animation-duration: 6s;
+      animation-delay: 0.5s;
+    }
+
+    .content-page,
+    .third-page,
+    .fourth-page {
+      margin-top: 50px;
+      padding: 20px;
+      display: none;
+    }
+
+    .description {
+      font-family: 'Garamond', serif;
+      font-size: 1.2em;
+      line-height: 1.5;
+      margin-top: 20px;
+      color: #555;
+    }
+
+    .third-container {
+      background-color: #fff;
+      margin: 20px auto;
+      padding: 20px;
+      max-width: 600px;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .four-container {
+      background-color: #fff;
+      margin: 20px auto;
+      padding: 20px;
+      max-width: 600px;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
+    .button:hover {
+  background-color: #ff5180;
+  transform: scale(1.1);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+    .image-below {
+      margin-top: 70px;
+    }
+
+    .image-below img {
+      width: 100%;
+      max-width: 800px;
+      height: auto;
+      border-radius: 22px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      margin: 0 auto;
+      display: block;
+    }
+
+    .copyright {
+      margin-top: 40px;
+      font-size: 1em;
+      color: #333;
+    }
+  </style>
+
+  </head>
+<body>
+  <!-- Home Page -->
+  <div id="home-page" class="container">
+    <h1>⭐Welcome To My World!⭐</h1>
+    <p>Click the button below to see the contents that I created.</p>
+    <button class="button" onclick="showContentPage()">Love Letter ୧⍤⃝💐</button>
+    <button class="button" onclick="showThirdPage()">*ੈ✩‧₊˚ Quotes *ੈ✩‧₊˚</button>
+    <button class="button" onclick="showFourthPage()">🔗Contact Me👋🏻</button>
+    <div class="image-below">
+      <a href="https://ibb.co.com/d4kfZzkJ"><img src="https://i.ibb.co.com/SwV6S9V7/Whats-App-Image-2025-03-25-at-20-06-36-2-1.jpg" alt="Whats-App-Image-2025-03-25-at-20-06-36-2-1" border="0"></a>
+    </div>
+  </div>
+
+  <!-- Falling Stars -->
+  <div class="star" style="left: 10%;"></div>
+  <div class="star" style="left: 20%;"></div>
+  <div class="star" style="left: 30%;"></div>
+  <div class="star" style="left: 40%;"></div>
+  <div class="star" style="left: 50%;"></div>
+  <div class="star" style="left: 60%;"></div>
+  <div class="star" style="left: 70%;"></div>
+  <div class="star" style="left: 80%;"></div>
+  <div class="star" style="left: 90%;"></div>
+
+  <!-- Love Letter Page -->
+  <div id="content-page" class="content-page">
+    <h1>⋆˚𝜗𝜚Welcome Honey 𝜗𝜚˚⋆</h1>
+    <p><b>Read This Carefully, and enjoy it!</b>(˶˃ ᵕ ˂˶)</p>
+    <div class="third-container">
+    <p class="description">
+      <b>You're the main character in your life, do your best, always think ahead. Involve Allah in everything, everything that happens has a reason, forgive everything that makes you sick and tight, it will be alright. You can and you are capable, have good thoughts with Allah, istiqamah or consistent in all good things, increase the worship. So the last hope of the family is difficult, bear all expectations, but believe you can, achieve your goals, you deserve your dreams, so always try so that you deserve to have them. The point is hopefully my soul mate Sultan Dubai SOLEH LOL. No, I mean hopefully I can get a full scholarship to study abroad, especially at TETR college, Al-Qasimia University, National University of Singapore, and other top universities in the world, majoring in business management, international relations, international business. Work in the world's top companies, work at the United Nations, have a lot of money, umrah and hajj with family using their own money and hard work, traveling to many countries with family, photos in front of Disneyland or Universal Studios, be a wife solelah, be a mother who can give birth to the next generation that brings Islam back to glory and can improve Indonesia. May Allah grant all our dreams and make it easy to achieve them. Bismillah and alhamdulillah. Remember everything will be fine, do what is in front of you. Try harder AAMIIN MOST FAST!</b>
+    </p> 
+    </div>
+
+    <div class="image-below">
+      <a href="https://ibb.co.com/d4kfZzkJ"><img src="https://i.ibb.co.com/SwV6S9V7/Whats-App-Image-2025-03-25-at-20-06-36-2-1.jpg" alt="Whats-App-Image-2025-03-25-at-20-06-36-2-1" border="0"></a>
+    </div>
+    <div class="four-container">
+      <p>༘⋆🌷🫧💭₊˚ෆ Reload the page to go back ༘⋆🌷🫧💭₊˚ෆ</p>
+    </div>
+  </div>
+
+  <!-- Third Page (Quotes) -->
+  <div id="third-page" class="third-page">
+    <h1>⋆｡‧˚ʚQUOTESɞ˚‧｡⋆</h1>
+    <div class="third-container">
+      <p><strong>“Experience is the real teacher”</strong></p>
+    </div>
+    <div class="third-container">
+      <p><strong>“You're the main Character in your Life”</strong></p>
+    </div>
+    <div class="third-container">
+      <p><strong>“If u wanna leave me then leave me, Allah is never ever leave me”</strong></p>
+    </div>
+    <div class="image-below">
+      <a href="https://ibb.co.com/d4kfZzkJ"><img src="https://i.ibb.co.com/SwV6S9V7/Whats-App-Image-2025-03-25-at-20-06-36-2-1.jpg" alt="Whats-App-Image-2025-03-25-at-20-06-36-2-1" border="0"></a>
+    </div>
+    <div class="four-container">
+      <p>༘⋆🌷🫧💭₊˚ෆ Reload the page to go back ༘⋆🌷🫧💭₊˚ෆ</p>
+    </div>
+  </div>
+
+  <!-- Fourth Page (Contact me) -->
+  <div id="fourth-page" class="fourth-page">
+    <h1>⋆｡‧˚ʚ Get to Know More About Me ɞ˚‧｡⋆</h1>
+    <div class="four-container">
+      <p><strong>Instagram:</strong></p>
+      <a href="https://instagram.com/_andaluzblossom" target="_blank" style="color: #ff77b6; text-decoration: none;">
+        @_andaluzblossom
+      </a>
+    </div>
+    <div class="four-container">
+      <p><strong>Email:</strong></p>
+      <a href="mailto:shabrinaindriandalusia@gmail.com" style="color: #ff77b6; text-decoration: none;">
+        shabrinaindriandalusia@gmail.com
+      </a>
+    </div>
+    <div class="four-container" style="margin-top: 40px;">
+      <p>༘⋆🌷🫧💭₊˚ෆ Reload the page to go back ༘⋆🌷🫧💭₊˚ෆ</p>
+    </div>
+  </div>
+
+  <div class="copyright">
+    <p>© Shabrina 2025</p>
+  </div>
+
+  <script>
+  function hideAllPages() {
+    document.getElementById('home-page').style.display = 'none';
+    document.getElementById('content-page').style.display = 'none';
+    document.getElementById('third-page').style.display = 'none';
+    document.getElementById('fourth-page').style.display = 'none';
+  }
+
+  function showContentPage() {
+    hideAllPages();
+    document.getElementById('content-page').style.display = 'block';
+  }
+
+  function showThirdPage() {
+    hideAllPages();
+    document.getElementById('third-page').style.display = 'block';
+  }
+
+  function showFourthPage() {
+    hideAllPages();
+    document.getElementById('fourth-page').style.display = 'block';
+  }
+  </script>
+
+</body>
+</html>
